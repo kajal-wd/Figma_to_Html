@@ -1,0 +1,88 @@
+.main-div{
+    height: 100vh !important;
+    width: 100%;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.req-quote-navitem a{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.banner-div .inner-content h1{
+    font-size: 50px;
+}
+
+/* .banner-div{
+    height: 70vh;
+} */
+.swiper {
+    width:100%;
+    /* height: 100px; */
+  }
+
+  .swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+.header-main-section{
+    border-bottom: 5px solid red;
+}
+
+.upper-header ul{
+    padding-right: 8px;
+}
+
+.banner-div{
+    height:calc(100vh - 102px);
+    width: 100%;
+}
+.hero-container{
+    width: 100%;
+    height: 100%;
+    background-image: url("./images/Hero-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right;
+}
+
+
+.product-details{
+    width: 100%;
+    height: auto;
+}
+
+.img-content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.Back-alpona-img{
+    position: relative;
+   width: 100%;
+   height: 100%;
+    z-index: -1;
+}
+
+.oil-packet-img{
+    position: absolute;
+    left: 50%;
+    width: 350px;
+    transform: translate(-50%,-50%);
+    bottom: -23%;
+    border-radius: 50%;
+}
+
+.Product-name-title{
+    font-size: 35px;
+    font-weight: 450;
+}
+
+.product-description-para{
+    font-weight: 350 !important;
+}
