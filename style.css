@@ -23,17 +23,8 @@ body{
     font-size: 50px;
 }
 
-/* .banner-div{
-    height: 70vh;
-} */
-.swiper {
-    width:100%;
-    /* height: 100px; */
-  }
-
-  .swiper-button-next,
-.swiper-button-prev {
-  display: none !important;
+.header-main-section{
+    background-color: #ffeb5c;
 }
 
 .header-main-section{
@@ -78,7 +69,7 @@ body{
 .about-container{
     width: 100%;
     height: auto;
-    background-image: linear-gradient(rgba(249, 249, 145, 0.703)) , url("./images/About_us_bg.jpg");
+    background-image: linear-gradient(#ffec5cb9) , url("./images/About_us_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -92,7 +83,7 @@ body{
     border-radius:50px 0 0 50px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
-    background-color: rgb(241, 241, 124);
+    background-color: #ffeb5c;
 }
 
 .about-us-heading h4{
@@ -108,51 +99,51 @@ body{
 
 .packet-container{
     position: absolute;
-    top: 40%;
-    left: 26%
+    top: 32%;
+    left: 32%
 }
 
 .pouch-1{
-    width: 70px;
+    width: 61px;
 }
 
 .pouch-2{
-    width: 90px;
+    width: 78px;
 }
 
 .bottle-1{
-    width: 46px;
+    width: 36px;
 }
 .bottle-2{
-    width: 70px;
+    width: 52px;
 }
 .bottle-3{
-    width: 60px;
+    width: 45px;
 }
 
 .bottle-container{
     position: absolute;
-    top: 29%;
-    left: 26%;
+    top: 27%;
+    left: 33%;
 }
 
 
 .tin-container-1{
     position: absolute;
-    top: 56%;
-    left: 26%;
+    top: 46%;
+    left: 31%;
 }
 .tin-container-2{
     position: absolute;
-    top: 66%;
-    left: 35%;
+    top: 54%;
+    left: 41%;
 }
 
 .tin-1{
-    width: 68px;
+    width: 60px;
 }
 .tin-2{
-    width: 75px;
+    width: 66px;
 }
 .tin-3{
     width: 48px;
@@ -168,4 +159,8 @@ body{
     border: 2px solid grey;
     border-radius: 50%;
     width: 60%;
+}
+
+footer{
+    background-color: #d0ffab;
 }
