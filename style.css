@@ -43,78 +43,6 @@
 }
 
 
-.img-content{
-    position: relative;
-   
-}
-
-.oil-packet-main-container{
-   position: relative;
-   top: -230px;
-   /* display: inline-block; */
-   left: 25%;
-   display: flex;
-   align-items: end;
-   
-}
-
-.oil-packet-main-container .pack-1{
-    width: 70px;
-   
-}
-
-.oil-packet-main-container .pack-2{
-    width: 97px;
-    
-}
-
-.oil-packet-main-container-bottle{
-    position: relative;
-   top: -265px;
-   left: 25%;
-   display: flex;
-   align-items: end;
-}
-
-.pack-1-bottle{
-    width: 50px;
-}
-.pack-2-bottle{
-    width: 70px;
-}
-.pack-3-bottle{
-    width: 60px;
-}
-
-.oil-packet-main-container-tin-1{
-    position: relative;
-    top: -187px;
-    left: 25%;
-    display: flex;
-    align-items: end;
-}
-.oil-packet-main-container-tin-2{
-    position: relative;
-    top: -265px;
-    left: 35%;
-    display: flex;
-    align-items: end;
-}
-
-.pack-1-tin{
-    width: 77px;
-}
-.pack-2-tin{
-    width: 86px;
-}
-.pack-3-tin{
-    width: 62px;
-}
-.pack-4-tin{
-    width: 43px;
-}
-
-
 .Product-name-title{
     font-size: 30px;
     font-weight: 450;
@@ -162,4 +90,69 @@
 
 .about-us-heading h4{
     font-size: 30px;
+}
+
+
+/*  */
+
+.product-img-main-container{
+    position: relative;
+}
+
+.packet-container{
+    position: absolute;
+    top: 40%;
+    left: 26%
+}
+
+.pouch-1{
+    width: 70px;
+}
+
+.pouch-2{
+    width: 90px;
+}
+
+.bottle-1{
+    width: 46px;
+}
+.bottle-2{
+    width: 70px;
+}
+.bottle-3{
+    width: 60px;
+}
+
+.bottle-container{
+    position: absolute;
+    top: 29%;
+    left: 26%;
+}
+
+
+.tin-container-1{
+    position: absolute;
+    top: 56%;
+    left: 26%;
+}
+.tin-container-2{
+    position: absolute;
+    top: 66%;
+    left: 35%;
+}
+
+.tin-1{
+    width: 68px;
+}
+.tin-2{
+    width: 75px;
+}
+.tin-3{
+    width: 48px;
+}
+.tin-4{
+    width: 38px;
+}
+.tin-5{
+    width: 35px;
 }
