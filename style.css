@@ -104,17 +104,17 @@ body {
 
 .packet-container {
     position: absolute;
-    top: 32%;
-    left: 32%;
-    
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -46%);
 }
 
 .pouch-1 {
-    width: 29%;
+    width: 34%;
 }
 
 .pouch-2 {
-    width:38%;
+    width:48%;
 }
 
 .bottle-1 {
