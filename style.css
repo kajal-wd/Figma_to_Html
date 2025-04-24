@@ -106,7 +106,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-40%, -46%);
+    transform: translate(-40%, -40%);
 }
 
 .pouch-1 {
