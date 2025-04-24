@@ -107,7 +107,18 @@ body {
     bottom: 20%;
     left: 50%;
     transform: translate(-40%, -21%);
+    
 }
+
+.product-img-main-container:hover .packet-container{
+   animation: floatUpDown 2s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+    0%   { transform: translate(-40%, -21%); }
+    50%  { transform: translate(-40%, -26%); }  /* Move up by 5% */
+    100% { transform: translate(-40%, -21%); }
+  }
 
 .pouch-1 {
     width: 33%;
@@ -136,17 +147,28 @@ body {
     transform: translate(0%, 1%);
 }
 
+.product-img-main-container:hover .bottle-container{
+    animation: floatUpDown1 2s ease-in-out infinite;
+}
+
+@keyframes floatUpDown1 {
+    0%   { transform: translate(0%, 1%); }
+    50%  { transform: translate(0%, -4%); }  /* Move up by 5% */
+    100% { transform: translate(0%, 1%); }
+  }
 
 .tin-container-1 {
     position: absolute;
     top: 46%;
     left: 31%;
+    /* transition: transform 0.3s ease; */
 }
 
 .tin-container-2 {
     position: absolute;
     top: 55%;
     left: 41%;
+    /* transition: transform 0.3s ease; */
 }
 
 .tin-1 {
@@ -165,6 +187,18 @@ body {
     width: 16%;
 }
 
+
+.product-img-main-container:hover .tin-container-1 ,.product-img-main-container:hover .tin-container-2
+{
+    animation: floatTin 2s ease-in-out infinite;
+}
+
+
+@keyframes floatTin {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-8%); } /* Goes UP */
+    100% { transform: translateY(0); }
+}
 
 .underline {
     border: 2px solid grey;
