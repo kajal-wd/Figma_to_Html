@@ -99,32 +99,34 @@ body {
 
 .product-img-main-container {
     position: relative;
+    
 }
 
 .packet-container {
     position: absolute;
     top: 32%;
-    left: 32%
+    left: 32%;
+    
 }
 
 .pouch-1 {
-    width: 95px;
+    width: 29%;
 }
 
 .pouch-2 {
-    width: 125px;
+    width:38%;
 }
 
 .bottle-1 {
-    width: 42px;
+    width: 14%;
 }
 
 .bottle-2 {
-    width: 82px;
+    width: 25%;
 }
 
 .bottle-3 {
-    width: 65px;
+    width: 19%;
 }
 
 .bottle-container {
@@ -143,23 +145,23 @@ body {
 .tin-container-2 {
     position: absolute;
     top: 55%;
-    left: 43%;
+    left: 41%;
 }
 
 .tin-1 {
-    width: 90px;
+    width: 22%;
 }
 
 .tin-2 {
-    width: 96px;
+    width: 23%;
 }
 
 .tin-3 {
-    width: 69px;
+    width: 21%;
 }
 
 .tin-4 {
-    width: 53px;
+    width: 16%;
 }
 
 
